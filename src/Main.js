@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import StoryMap from './StoryMap';
 import Gallery from './Gallery';
+import Bibliography from './Bibliography';
 
 class Main extends Component {
   render() {
@@ -12,7 +13,7 @@ class Main extends Component {
 			<Switch>
 				<Route exact path='/' component={StoryMap}/>
 				<Route path='/gallery' component={Gallery}/>
-
+				<Route path='/bibliography' component={Bibliography}/>
 			</Switch>
 			</main>
 		);
@@ -21,5 +22,3 @@ class Main extends Component {
 
 export default Main;
 
-
-			//	

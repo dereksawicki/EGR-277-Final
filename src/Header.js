@@ -10,6 +10,8 @@ class Header extends Component {
       <nav className="header">
          <div>
             <ul>
+             <li className="nav-item"><NavLink to='/bibliography' exact activeClassName="nav-link-header-active" className="nav-link-header ">BIBLIOGRAPHY</NavLink></li>
+ 
               <li className="nav-item"><NavLink to='/gallery' activeClassName="nav-link-header-active" className="nav-link-header">GALLERY</NavLink></li>          
  <li className="nav-item"><NavLink to='/' exact activeClassName="nav-link-header-active" className="nav-link-header ">STORYMAP</NavLink></li>
  
